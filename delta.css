@@ -1,0 +1,124 @@
+			body{
+				margin:0;
+				padding:0;
+				font-family:Helvetica, Arial, freesans, sans-serif;
+				background-color:#000000;
+				}
+				
+#container {
+  height: 725px;
+  width: 600px;
+  margin: 100px auto;
+  background: #f7f7f7;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+}
+
+
+h1 {
+  background: blue;
+  color: white;
+  margin: 0;
+  padding: 20px 100px;
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: normal;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  
+}
+h2{
+	color:#000000;
+}
+
+#savedata{
+	alignment:center;
+	width:300px;
+	height:50px;
+}
+#displaydata{
+	alignment:center;
+	width:300px;
+	height:50px;
+	float:left;
+}
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 180px;
+  height:180px;
+  padding-top: 20px;
+  padding-left:20px;
+  
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  float:left;`
+}
+
+
+
+#tim{
+	alignmment: center;
+	position:relative;
+	padding-top:20px;
+	padding-left:40px;
+	font-size:30px;
+	font-weight:solid;
+	color:black;
+}
+html {
+  background: #333;
+  color: #bbb;
+  font-family: Menlo;
+}
+
+.controls {
+  position: fixed;
+  text-align: center;
+  top: 1em;
+  width: 80%;
+}
+
+.button {
+  color: #bbb;
+  font-size: 4vw;
+  margin: 0 0.5em;
+  text-decoration: none;
+}
+
+.button:first-child {
+    margin-left: 0;
+}
+
+.button:last-child {
+    margin-right: 0;
+}
+
+.button:hover {
+  color: white;
+}
+
+.stopwatch {
+  font-size: 30px;
+  height: 10%;
+ 
+  text-align: center;
+}
+
+.results {
+  border-color: black;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
